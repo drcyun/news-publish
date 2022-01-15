@@ -8,4 +8,4 @@ function NoPermission(props) {
     );
 }
 
-export default NoPermission;
+export default React.memo(NoPermission);
